@@ -10,8 +10,6 @@ import kotlin.random.Random
 
 class GameRepositoryImpl: GameRepository {
 
-
-
     override fun generateQuestion(maxSumValue: Int, countOfOptions: Int): Question {
         val sum = Random.nextInt(MIN_SUM_VALUE, maxSumValue + 1)
         val visibleNumber = Random.nextInt(MIN_ANSWER_VALUE, sum)
