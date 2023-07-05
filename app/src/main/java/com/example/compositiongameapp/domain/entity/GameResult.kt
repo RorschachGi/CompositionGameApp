@@ -10,3 +10,7 @@ data class GameResult(
     val countOfQuestions: Int,
     val gameSettings: GameSettings
 ): Parcelable
+
+
+
+
